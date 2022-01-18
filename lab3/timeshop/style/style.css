@@ -1,0 +1,58 @@
+body, html {height: 100%}
+.Home {
+    background-image: url('b1.jpg');
+    min-height: 20%;
+    background-position: center;
+    background-size: cover;
+  }
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+body, html {height: 100%}
+.page {
+  background-color: white;
+  min-height: 60%;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1500px) { 
+    body {
+        max-width: 80%; 
+        margin: auto;
+    }
+}
+
+.w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+.w3-image{
+    width:100%;
+    max-height:100%;
+    line-height:1;
+    object-fit:cover;
+}
+
+@media screen and (max-width: 600px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .w3-image{
+    width:100%;
+    max-height:100%;
+    line-height:1;
+    object-fit:cover;
+}
+}
+
+body, html {height: 100%}
+.About {
+  background-color: rgb(93, 153, 214);
+  min-height: 30%;
+  background-position: center;
+  background-size: cover;
+}
