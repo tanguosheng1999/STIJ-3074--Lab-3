@@ -10,7 +10,7 @@ if (isset($_GET['pageno'])) {
 
 include_once("dbconnect.php");
 
-$sqlquery = "SELECT * FROM tbl_watchs";
+$sqlquery = "SELECT * FROM tbl_watchs ORDER BY watch_date DESC";
 $stmt = $conn->prepare($sqlquery);
 $stmt->execute();
 $number_of_result = $stmt->rowCount();
