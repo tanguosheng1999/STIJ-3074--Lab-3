@@ -47,6 +47,7 @@ function uploadImage($idno)
   class="w3-bar-item w3-button">Close Menu</a>
   <a href="index.php" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
   <a href="new_watch.php" onclick="w3_close()" class="w3-bar-item w3-button">New Watch</a>
+  <a href="#About" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
 </nav>
 
 <!-- Top menu -->
