@@ -57,7 +57,7 @@ $rows = $stmt->fetchAll();
 </div>
 
 <div class="w3-bar w3-blue">
-        <a href="new_watch.php" class="w3-bar-item w3-button w3-right">New Product</a>
+        <a href="new_watch.php" class="w3-bar-item w3-button w3-right">New Watch</a>
     </div>
 
 <!-- !PAGE CONTENT! -->
